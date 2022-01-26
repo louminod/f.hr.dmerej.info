@@ -24,3 +24,23 @@ Bugs had been reported to the bug tracker
 Lot of bugs had been founded.
 Some of them are minor (syntax) but the others are pretty criticals (stack trace, wrong redirects)
 
+## *26/01/2022*
+
+Objective of the day :
+- Run the test plan for the second time 🟢
+- Put second run bugs in tracker & update olders 🟢
+- Automate the tests 🟠
+
+### Run the test plan for the second time
+We ran the test plan on the version **1.0.2** of the website to look for patched bugs.
+
+### Put second run bugs in tracker & update olders
+We updated the status of the current reported bugs and added the new ones.
+
+### Automate the tests
+We setup playwright and started to automate tests.
+We already have at least one test working.
+
+### Conclusion
+Still some bugs to fix on the next version.
+Playwright is working well. We need to continue to automate tests.
