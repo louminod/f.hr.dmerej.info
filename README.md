@@ -70,11 +70,7 @@ Following the guidelines given on the main project page, we setup the django loc
 Using our different tests, we check how the code is, add tests and see what can be enhanced and how.
 
 ## Conclusion
-Still some bugs to fix on the next version.
-Playwright is working well. We need to continue to automate tests.
-
 There are still some bugs we could test, but we're lacking time.
-
 To make the most of our time, we split out team up on the work on hand, but we might have not given enough focus on certain points.
 
 
