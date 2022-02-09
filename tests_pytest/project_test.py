@@ -1,5 +1,4 @@
 
-
 def add_employee(page, name, mail, adr1, adr2, city, zip, date, job):
         # Go to https://f.hr.dmerej.info/
         page.goto("https://f.hr.dmerej.info/")
@@ -42,6 +41,7 @@ def add_employee(page, name, mail, adr1, adr2, city, zip, date, job):
         page.click("button:has-text(\"Add\")")
         # assert page.url == "https://f.hr.dmerej.info/employees"
 
+#TEST ID : 6.1, 6.2, 6.3
 #retrieve name, mail, job and hiring date of the last added employee
 def employee_last_info(page):
         page.goto("https://f.hr.dmerej.info/employees")
@@ -59,7 +59,7 @@ def employee_last_info(page):
         return name, email, job, date
 
 
-
+#TEST ID : 1.1
 def test_insert_employee(page) -> None:
 
         add_employee(page, "Bobby", "Bob@bob.com", "1 rue bonjour", "none", "Bob city", "45210", "11/11/11", "tester")
