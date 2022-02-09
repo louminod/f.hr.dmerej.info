@@ -55,9 +55,9 @@ We already have at least one test working.
 ## *09/02/2022*
 
 Objective of the day :
-- Continue automating the tests using playwright
-- setup the project with the full website backend
-- create direct database tests inside the source code
+- Continue automating the tests using playwright 🟢
+- setup the project with the full website backend 🟠
+- create direct database tests inside the source code 🟠
 
 ### Continue automating the tests using playwright
 We continue from where we left off last time, by writing more playwright tests.
@@ -72,6 +72,7 @@ Using our different tests, we check how the code is, add tests and see what can 
 ## Conclusion
 There are still some bugs we could test, but we're lacking time.
 To make the most of our time, we split out team up on the work on hand, but we might have not given enough focus on certain points.
+We've had troubles setting up the development environment for the source code, so we couldn't work well on it.
 
 
 ### White-box testing
