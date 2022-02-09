@@ -1,6 +1,6 @@
 from playwright.sync_api import Playwright, sync_playwright
 
-
+#TEST ID : 8.2
 def test_employee_edit_address(playwright: Playwright) -> None:
     browser = playwright.chromium.launch(headless=False)
     context = browser.new_context()
@@ -94,7 +94,7 @@ def test_employee_edit_address(playwright: Playwright) -> None:
     context.close()
     browser.close()
 
-
+#TEST ID : 7.2
 def test_employee_edit_basic_info(playwright: Playwright) -> None:
     browser = playwright.chromium.launch(headless=False)
     context = browser.new_context()
@@ -174,7 +174,7 @@ def test_employee_edit_basic_info(playwright: Playwright) -> None:
     context.close()
     browser.close()
 
-
+#TEST ID : 9.2
 def test_employee_edit_legal_info(playwright: Playwright) -> None:
     browser = playwright.chromium.launch(headless=False)
     context = browser.new_context()
@@ -254,7 +254,7 @@ def test_employee_edit_legal_info(playwright: Playwright) -> None:
     context.close()
     browser.close()
 
-
+#TEST ID : 2.8
 def test_employee_delete(playwright: Playwright) -> None:
     browser = playwright.chromium.launch(headless=False)
     context = browser.new_context()
