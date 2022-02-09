@@ -19,6 +19,14 @@ def add_employee_empty() :
 
     assert r.status_code == 400
 
+
+def add_team_empty() :
+
+    r = requests.post('http://127.0.0.1:5678/add_team', 
+        headers={'Accept': 'application/json'})
+
+    assert r.status_code == 400
+
 def reset_database() :
     r = requests.post('http://127.0.0.1:5678/reset_db',
         headers={'Accept': 'application/json'})
@@ -30,6 +38,7 @@ def reset_database() :
 
 
 
-add_employee()
+#add_employee()
 #add_employee_empty()
+add_team_empty()
 #reset_database()
