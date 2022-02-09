@@ -88,6 +88,7 @@ After that, there still is a risk of us not understanding how the code works, ma
 ### Our opinion on the different testing strategies used in the 4 sequences, and their pros and cons
 
 *Manual Testing*
+
 Pros :
 - Clear user result
 - Work easily split among the team members
@@ -99,6 +100,7 @@ Cons :
 - Impossible to do every kind of tests easily 
 
 *Automatic on Black-box*
+
 Pros :
 - A lot of different kinds of tests are possible
 - Easy to setup
@@ -108,6 +110,7 @@ Cons :
 - requires smart thinkering to achieve tests easily done through white-box
 
 *Automatic on White-box*
+
 Pros :
 - Total access to the code and functionnalities
 - Most efficient, and fastest to run
