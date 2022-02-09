@@ -6,7 +6,7 @@
 
 Test Plan
 
-https://efrei365net-my.sharepoint.com/:x:/g/personal/maxence_chambrin_efrei_net/EQZq64HNTrpEtA3d5zU8TXUBo3i0JqLHU028PQalJVLnIw?e=iLa21e
+https://efrei365net-my.sharepoint.com/:x:/g/personal/maxence_chambrin_efrei_net/EQZq64HNTrpEtA3d5zU8TXUBo3i0JqLHU028PQalJVLnIw?e=XUuZ4o
 
 Bug Tracker 
 
